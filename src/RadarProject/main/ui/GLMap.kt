@@ -291,7 +291,7 @@ class GLMap : InputAdapter(), ApplicationListener, GameListener {
                 if (VehicleInfoToggles == 4) {VehicleInfoToggles = 1}
             }
         // Zoom (Loot, Combat, Scout)
-            NUMPAD_8 -> {
+            NUM_8, NUMPAD_8 -> {
                 if (ZoomToggles <= 4) { ZoomToggles += 1}
                 if (ZoomToggles == 4) { ZoomToggles = 1}
                 // then
@@ -316,13 +316,13 @@ class GLMap : InputAdapter(), ApplicationListener, GameListener {
             F12 -> drawmenu = drawmenu * -1
 
         // Icon Filter Keybinds
-            NUMPAD_1 -> filterWeapon = filterWeapon * -1
-            NUMPAD_2 -> filterLvl2 = filterLvl2 * -1
-            NUMPAD_3 -> filterHeals = filterHeals * -1
-            NUMPAD_4 -> filterThrow = filterThrow * -1
-            NUMPAD_5 -> filterAttach = filterAttach * -1
-            NUMPAD_6 -> filterScope = filterScope * -1
-            NUMPAD_0 -> filterAmmo = filterAmmo * -1
+            NUM_1, NUMPAD_1 -> filterWeapon = filterWeapon * -1
+            NUM_2, NUMPAD_2 -> filterLvl2 = filterLvl2 * -1
+            NUM_3, NUMPAD_3 -> filterHeals = filterHeals * -1
+            NUM_4, NUMPAD_4 -> filterThrow = filterThrow * -1
+            NUM_5, NUMPAD_5 -> filterAttach = filterAttach * -1
+            NUM_6, NUMPAD_6 -> filterScope = filterScope * -1
+            NUM_0, NUMPAD_0 -> filterAmmo = filterAmmo * -1
 
         // Zoom In/Out || Overrides Max/Min Zoom
             MINUS -> camera.zoom = camera.zoom + 0.00525f

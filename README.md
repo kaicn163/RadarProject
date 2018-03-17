@@ -15,16 +15,16 @@ SDK Dumped by (legitnutty33) Thank You!
 You can't filter level 3 gear (always enabled)
 
 #### Item Filter:
-* NUMPAD_1 -> Filter Weapon
-* NUMPAD_2 -> Filter Equip
-* NUMPAD_3 -> Filter Meds
-* NUMPAD_4 -> Filter Throw
-* NUMPAD_5 -> Filter Attach
-* NUMPAD_6 -> Filter Scope
-* NUMPAD_0 -> Filter Ammo
+* NUM_1, NUMPAD_1 -> Filter Weapon
+* NUM_2, NUMPAD_2 -> Filter Equip
+* NUM_3, NUMPAD_3 -> Filter Meds
+* NUM_4, NUMPAD_4 -> Filter Throw
+* NUM_5, NUMPAD_5 -> Filter Attach
+* NUM_6, NUMPAD_6 -> Filter Scope
+* NUM_0, NUMPAD_0 -> Filter Ammo
 
 #### Zooms:
-* NUMPAD_8 -> Looting - Combat -Scouting
+* NUM_8, NUMPAD_8 -> Looting - Combat -Scouting
 * NUMPAD_PLUS ->  Camera Zoom ++
 * NUMPAD_MINUS -> Camera Zoom --
 
